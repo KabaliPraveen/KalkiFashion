@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Empty Chrome Browser is launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window is maximized]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-23T11:47:17 IST" name="Default suite" finished-at="2023-01-23T11:48:01 IST" duration-ms="43930">
+    <groups>
+    </groups>
+    <test started-at="2023-01-23T11:47:17 IST" name="Default test" finished-at="2023-01-23T11:48:01 IST" duration-ms="43930">
+      <class name="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008@4e7912d8]" started-at="2023-01-23T11:47:17 IST" name="browserSetup" finished-at="2023-01-23T11:47:26 IST" duration-ms="8848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Chrome Browser is launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="blouse()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008@4e7912d8]" started-at="2023-01-23T11:47:26 IST" name="blouse" finished-at="2023-01-23T11:48:01 IST" duration-ms="35009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blouse -->
+        <test-method is-config="true" signature="browserTermination()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008@4e7912d8]" started-at="2023-01-23T11:48:01 IST" name="browserTermination" finished-at="2023-01-23T11:48:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+      </class> <!-- kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
