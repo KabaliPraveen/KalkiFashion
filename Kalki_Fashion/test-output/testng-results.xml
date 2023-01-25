@@ -8,12 +8,15 @@
       <![CDATA[Browser Window is maximized]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-01-23T11:47:17 IST" name="Default suite" finished-at="2023-01-23T11:48:01 IST" duration-ms="43930">
+  <suite started-at="2023-01-25T10:24:15 IST" name="Default suite" finished-at="2023-01-25T10:24:48 IST" duration-ms="33118">
     <groups>
+      <group name="Functional">
+        <method signature="TC_Kalki_AddToCart_007_Test.blouse()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test@4e7912d8]" name="blouse" class="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test"/>
+      </group> <!-- Functional -->
     </groups>
-    <test started-at="2023-01-23T11:47:17 IST" name="Default test" finished-at="2023-01-23T11:48:01 IST" duration-ms="43930">
-      <class name="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008@4e7912d8]" started-at="2023-01-23T11:47:17 IST" name="browserSetup" finished-at="2023-01-23T11:47:26 IST" duration-ms="8848" status="PASS">
+    <test started-at="2023-01-25T10:24:15 IST" name="Default test" finished-at="2023-01-25T10:24:48 IST" duration-ms="33118">
+      <class name="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test@4e7912d8]" started-at="2023-01-25T10:24:15 IST" name="browserSetup" finished-at="2023-01-25T10:24:19 IST" duration-ms="3545" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +33,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="blouse()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008@4e7912d8]" started-at="2023-01-23T11:47:26 IST" name="blouse" finished-at="2023-01-23T11:48:01 IST" duration-ms="35009" status="PASS">
+        <test-method signature="blouse()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test@4e7912d8]" started-at="2023-01-25T10:24:19 IST" name="blouse" finished-at="2023-01-25T10:24:48 IST" duration-ms="29125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blouse -->
-        <test-method is-config="true" signature="browserTermination()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008@4e7912d8]" started-at="2023-01-23T11:48:01 IST" name="browserTermination" finished-at="2023-01-23T11:48:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="browserTermination()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test@4e7912d8]" started-at="2023-01-25T10:24:48 IST" name="browserTermination" finished-at="2023-01-25T10:24:48 IST" duration-ms="428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTermination -->
-      </class> <!-- kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008 -->
+      </class> <!-- kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

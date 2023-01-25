@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008">
+      <class name="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test">
         <methods>
           <include name="browserSetup"/>
-          <include name="blouse"/>
           <include name="browserTermination"/>
+          <include name="blouse"/>
         </methods>
-      </class> <!-- kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008 -->
+      </class> <!-- kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
