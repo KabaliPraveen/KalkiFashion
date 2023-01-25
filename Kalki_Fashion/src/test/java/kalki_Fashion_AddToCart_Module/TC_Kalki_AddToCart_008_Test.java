@@ -11,8 +11,8 @@ import genericLibrary.BaseClass;
 import pomRepository.AddToCartBasePage;
 import pomRepository.AddToCartProductPage;
 
-public class TC_Kalki_AddToCart_008 extends BaseClass {
-	@Test
+public class TC_Kalki_AddToCart_008_Test extends BaseClass {
+	@Test(groups="Functional")
 	public void blouse() throws Exception {
 	
 	String ExpectedText="Alert subscription has been saved";
