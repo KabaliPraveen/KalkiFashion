@@ -2,9 +2,14 @@
 <testng-results ignored="2" total="10" passed="0" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2023-01-25T12:27:40 IST" name="Suite" finished-at="2023-01-25T12:27:48 IST" duration-ms="7245">
+=======
+  <suite started-at="2023-01-25T10:24:15 IST" name="Default suite" finished-at="2023-01-25T10:24:48 IST" duration-ms="33118">
+>>>>>>> branch 'master' of https://github.com/KabaliPraveen/KalkiFashion.git
     <groups>
       <group name="Functional">
+<<<<<<< HEAD
         <method signature="SignIn_Page_085Test.signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_085Test@29626d54]" name="signin" class="kalki_Fashion_SignIn_Module.SignIn_Page_085Test"/>
         <method signature="SignIn_Page_086Test.signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_086Test@2e4b8173]" name="signin" class="kalki_Fashion_SignIn_Module.SignIn_Page_086Test"/>
         <method signature="SignIn_Page_087Test.signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_087Test@72a7c7e0]" name="signin" class="kalki_Fashion_SignIn_Module.SignIn_Page_087Test"/>
@@ -13,8 +18,12 @@
         <method signature="TC_Kalki_AddToCart_081Test.clickOnimageDescription()[pri:0, instance:kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test@17046283]" name="clickOnimageDescription" class="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test"/>
         <method signature="TC_Kalki_AddToCart_083Test.clickOnimageDescription()[pri:0, instance:kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test@70e8f8e]" name="clickOnimageDescription" class="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test"/>
         <method signature="TC_Kalki_AddToCart_084Test.clickOnimageDescription()[pri:0, instance:kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_084Test@5bd03f44]" name="clickOnimageDescription" class="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_084Test"/>
+=======
+        <method signature="TC_Kalki_AddToCart_007_Test.blouse()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test@4e7912d8]" name="blouse" class="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test"/>
+>>>>>>> branch 'master' of https://github.com/KabaliPraveen/KalkiFashion.git
       </group> <!-- Functional -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2023-01-25T12:27:40 IST" name="Test" finished-at="2023-01-25T12:27:48 IST" duration-ms="7245">
       <class name="kalki_Fashion_SignIn_Module.SignIn_Page_088Test">
         <test-method signature="signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_088Test@6e4784bc]" started-at="2023-01-25T12:27:47 IST" name="signin" finished-at="2023-01-25T12:27:48 IST" duration-ms="1019" status="FAIL">
@@ -54,8 +63,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
+=======
+    <test started-at="2023-01-25T10:24:15 IST" name="Default test" finished-at="2023-01-25T10:24:48 IST" duration-ms="33118">
+      <class name="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test@4e7912d8]" started-at="2023-01-25T10:24:15 IST" name="browserSetup" finished-at="2023-01-25T10:24:19 IST" duration-ms="3545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Chrome Browser is launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="blouse()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test@4e7912d8]" started-at="2023-01-25T10:24:19 IST" name="blouse" finished-at="2023-01-25T10:24:48 IST" duration-ms="29125" status="PASS">
+>>>>>>> branch 'master' of https://github.com/KabaliPraveen/KalkiFashion.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- signin -->
       </class> <!-- kalki_Fashion_SignIn_Module.SignIn_Page_088Test -->
       <class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test">
@@ -96,8 +128,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
+=======
+        </test-method> <!-- blouse -->
+        <test-method is-config="true" signature="browserTermination()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test@4e7912d8]" started-at="2023-01-25T10:24:48 IST" name="browserTermination" finished-at="2023-01-25T10:24:48 IST" duration-ms="428" status="PASS">
+>>>>>>> branch 'master' of https://github.com/KabaliPraveen/KalkiFashion.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- clickOnimageDescription -->
       </class> <!-- kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test -->
       <class name="kalki_Fashion_SignIn_Module.SignIn_Page_090Test">
@@ -354,4 +391,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
       </class> <!-- kalki_Fashion_SignIn_Module.SignIn_Page_087Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
+=======
+        </test-method> <!-- browserTermination -->
+      </class> <!-- kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> branch 'master' of https://github.com/KabaliPraveen/KalkiFashion.git
 </testng-results>

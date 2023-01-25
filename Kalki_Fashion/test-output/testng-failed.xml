@@ -8,10 +8,21 @@
       </run>
     </groups>
     <classes>
+<<<<<<< HEAD
       <class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test">
+=======
+      <class name="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test">
+>>>>>>> branch 'master' of https://github.com/KabaliPraveen/KalkiFashion.git
         <methods>
+<<<<<<< HEAD
           <include name="clickOnimageDescription"/>
+=======
+          <include name="browserSetup"/>
+          <include name="browserTermination"/>
+          <include name="blouse"/>
+>>>>>>> branch 'master' of https://github.com/KabaliPraveen/KalkiFashion.git
         </methods>
+<<<<<<< HEAD
       </class> <!-- kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test -->
       <class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test">
         <methods>
@@ -48,6 +59,9 @@
           <include name="signin"/>
         </methods>
       </class> <!-- kalki_Fashion_SignIn_Module.SignIn_Page_086Test -->
+=======
+      </class> <!-- kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_007_Test -->
+>>>>>>> branch 'master' of https://github.com/KabaliPraveen/KalkiFashion.git
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

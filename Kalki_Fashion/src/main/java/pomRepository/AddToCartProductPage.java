@@ -74,14 +74,14 @@ public class AddToCartProductPage {
 	public WebElement getSelectpad() {
 		return selectpad;
 	}
-	@FindBy(xpath="//div[@id='option-blouse styles']//div[contains(@id,options)]")
+	@FindBy(xpath="//div[@id='option-blouse styles']//div//div[contains(@id,options)]")
 	private WebElement blouseStyle;
 	
 	public WebElement getBlouseStyle() {
 		return blouseStyle;
 	}
 
-	@FindBy(xpath="(//select[contains(@id,'options')])[2]")
+	@FindBy(xpath="//span[text()='Blouse Styles']/../..//option[contains(text(),'ROUND NECKLINE WITH IN CUT ')]")
 	private WebElement selectBlouse;
 
 	public WebElement getSelectBlouse() {
@@ -98,9 +98,43 @@ public class AddToCartProductPage {
 		return selectSleevelength;
 	}
 
-	@FindBy(xpath="(//select[contains(@id,'options')])[3]")
+	@FindBy(xpath="//span[text()='Sleeves Length (Inch)']/../..//option[contains(text(),'Sleeveless')]")
 	private WebElement selectSleevelength;
+	
+	@FindBy(xpath="//div[@id='option-petticoat']//div[contains(@id,'options')]")
+	private WebElement peticoat;
+
+	public WebElement getPeticoat() {
+		return peticoat;
 	}
+	@FindBy(xpath="//span[text()='Petticoat']/../..//option[contains(text(),'No, I would skip')]")
+	private WebElement selectPeticoat;
+
+	public WebElement getSelectPeticoat() {
+		return selectPeticoat;
+	}
+	@FindBy(xpath="//button[@title='Add to Cart']")
+	private WebElement addToCartButton;
+
+	public WebElement getAddToCartButton() {
+		return addToCartButton;
+	}
+	@FindBy(xpath="//h4[text()='Product Details']")
+	private WebElement selectProductDetails;
+
+	public WebElement getSelectProductDetails() {
+		return selectProductDetails;
+	}
+	@FindBy(xpath ="//h4[text()='Product Details']")
+	private WebElement productDetails;
+
+	public WebElement getProductDetails() {
+		return productDetails;
+	}
+}
+
+	
+	
 
 		
 	

@@ -67,7 +67,7 @@
 	</build>
 	<profiles>
 	<profile>
-			<id>smoke</id>
+			<id>Functional</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -76,7 +76,7 @@
 						<version>3.0.0-M8</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testn6.xml</suiteXmlFile>
+								<suiteXmlFile>testng1.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
@@ -84,7 +84,7 @@
 			</build>
 		</profile>
 		<profile>
-			<id>system</id>
+			<id>System</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -93,7 +93,7 @@
 						<version>3.0.0-M8</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testn_system.xml</suiteXmlFile>
+								<suiteXmlFile>testngSystem.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
@@ -102,7 +102,7 @@
 		</profile>
 		
 		<profile>
-			<id>all</id>
+			<id>All</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -111,7 +111,7 @@
 						<version>3.0.0-M8</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testn_all.xml</suiteXmlFile>
+								<suiteXmlFile>AllCases.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>

@@ -1,3 +1,5 @@
+
+
 package pomRepository;
 
 
@@ -20,6 +22,13 @@ public class AddToCartBasePage {
 	public WebElement getKalkiSearchBar() {
 		return kalkiSearchBar;
 	}
+	@FindBy(xpath="//div[@id=\"exit_intend_close\"]")
+	private WebElement popUp;
+
+	public WebElement getPopUp() {
+		return popUp;
+	}
+	
 	
 	
 	

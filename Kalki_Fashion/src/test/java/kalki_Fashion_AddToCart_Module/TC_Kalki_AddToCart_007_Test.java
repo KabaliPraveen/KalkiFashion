@@ -11,8 +11,8 @@ import genericLibrary.BaseClass;
 import pomRepository.AddToCartBasePage;
 import pomRepository.AddToCartProductPage;
 
-public class TC_Kalki_AddToCart_010 extends BaseClass {
-	@Test
+public class TC_Kalki_AddToCart_007_Test extends BaseClass {
+	@Test(groups="Functional")
 	public void blouse() throws Exception {
 	
 	String ExpectedText="Alert subscription has been saved";
@@ -43,6 +43,8 @@ public class TC_Kalki_AddToCart_010 extends BaseClass {
 	
 	products.getStitch().click();
 	Thread.sleep(1000);
+	
+	
 	products.getSize().click();
 	Thread.sleep(1000);
 	
@@ -52,18 +54,8 @@ public class TC_Kalki_AddToCart_010 extends BaseClass {
 	products.getBlouseStyle().click();
 	products.getSelectBlouse().click();
 	
-	products.getSleeveLength().click();
-	products.getSelectSleevelength().click();
-	
-	products.getPeticoat().click();
-	products.getSelectPeticoat().click();
-	
-	products.getAddToCartButton().click();
-	Thread.sleep(4000);
-	driver.quit();
-	
 }
 }
-
+	
 
 
