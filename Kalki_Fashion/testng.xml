@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Functional"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="kalki_Fashion_SignIn_Module.SignIn_Page_087Test" />
+			<class name="kalki_Fashion_SignIn_Module.SignIn_Page_086Test" />
+			<class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test" />
+			<class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_082Test" />
+			<class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test" />
+			<class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_084Test" />
+			<class name="kalki_Fashion_SignIn_Module.SignIn_Page_085Test" />
+			<class name="kalki_Fashion_SignIn_Module.SignIn_Page_090Test" />
+			<class name="kalki_Fashion_SignIn_Module.SignIn_Page_088Test" />
+			<class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_089Test" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

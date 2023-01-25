@@ -1,44 +1,357 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="10" passed="0" failed="8" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Empty Chrome Browser is launched Successfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Window is maximized]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-01-23T11:47:17 IST" name="Default suite" finished-at="2023-01-23T11:48:01 IST" duration-ms="43930">
+  <suite started-at="2023-01-25T12:27:40 IST" name="Suite" finished-at="2023-01-25T12:27:48 IST" duration-ms="7245">
     <groups>
+      <group name="Functional">
+        <method signature="SignIn_Page_085Test.signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_085Test@29626d54]" name="signin" class="kalki_Fashion_SignIn_Module.SignIn_Page_085Test"/>
+        <method signature="SignIn_Page_086Test.signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_086Test@2e4b8173]" name="signin" class="kalki_Fashion_SignIn_Module.SignIn_Page_086Test"/>
+        <method signature="SignIn_Page_087Test.signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_087Test@72a7c7e0]" name="signin" class="kalki_Fashion_SignIn_Module.SignIn_Page_087Test"/>
+        <method signature="SignIn_Page_088Test.signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_088Test@6e4784bc]" name="signin" class="kalki_Fashion_SignIn_Module.SignIn_Page_088Test"/>
+        <method signature="SignIn_Page_090Test.signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_090Test@5a63f509]" name="signin" class="kalki_Fashion_SignIn_Module.SignIn_Page_090Test"/>
+        <method signature="TC_Kalki_AddToCart_081Test.clickOnimageDescription()[pri:0, instance:kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test@17046283]" name="clickOnimageDescription" class="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test"/>
+        <method signature="TC_Kalki_AddToCart_083Test.clickOnimageDescription()[pri:0, instance:kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test@70e8f8e]" name="clickOnimageDescription" class="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test"/>
+        <method signature="TC_Kalki_AddToCart_084Test.clickOnimageDescription()[pri:0, instance:kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_084Test@5bd03f44]" name="clickOnimageDescription" class="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_084Test"/>
+      </group> <!-- Functional -->
     </groups>
-    <test started-at="2023-01-23T11:47:17 IST" name="Default test" finished-at="2023-01-23T11:48:01 IST" duration-ms="43930">
-      <class name="kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008@4e7912d8]" started-at="2023-01-23T11:47:17 IST" name="browserSetup" finished-at="2023-01-23T11:47:26 IST" duration-ms="8848" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-01-25T12:27:40 IST" name="Test" finished-at="2023-01-25T12:27:48 IST" duration-ms="7245">
+      <class name="kalki_Fashion_SignIn_Module.SignIn_Page_088Test">
+        <test-method signature="signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_088Test@6e4784bc]" started-at="2023-01-25T12:27:47 IST" name="signin" finished-at="2023-01-25T12:27:48 IST" duration-ms="1019" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at kalki_Fashion_SignIn_Module.SignIn_Page_088Test.signin(SignIn_Page_088Test.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Empty Chrome Browser is launched Successfully]]>
-            </line>
-            <line>
-              <![CDATA[Browser Window is maximized]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method signature="blouse()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008@4e7912d8]" started-at="2023-01-23T11:47:26 IST" name="blouse" finished-at="2023-01-23T11:48:01 IST" duration-ms="35009" status="PASS">
+        </test-method> <!-- signin -->
+      </class> <!-- kalki_Fashion_SignIn_Module.SignIn_Page_088Test -->
+      <class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test">
+        <test-method signature="clickOnimageDescription()[pri:0, instance:kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test@70e8f8e]" started-at="2023-01-25T12:27:42 IST" name="clickOnimageDescription" finished-at="2023-01-25T12:27:43 IST" duration-ms="1022" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test.clickOnimageDescription(TC_Kalki_AddToCart_083Test.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- blouse -->
-        <test-method is-config="true" signature="browserTermination()[pri:0, instance:kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008@4e7912d8]" started-at="2023-01-23T11:48:01 IST" name="browserTermination" finished-at="2023-01-23T11:48:01 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- clickOnimageDescription -->
+      </class> <!-- kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_083Test -->
+      <class name="kalki_Fashion_SignIn_Module.SignIn_Page_090Test">
+        <test-method signature="signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_090Test@5a63f509]" started-at="2023-01-25T12:27:46 IST" name="signin" finished-at="2023-01-25T12:27:47 IST" duration-ms="1013" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at kalki_Fashion_SignIn_Module.SignIn_Page_090Test.signin(SignIn_Page_090Test.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserTermination -->
-      </class> <!-- kalki_Fashion_AddToCart_Module.TC_Kalki_AddToCart_008 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- signin -->
+      </class> <!-- kalki_Fashion_SignIn_Module.SignIn_Page_090Test -->
+      <class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_084Test">
+        <test-method signature="clickOnimageDescription()[pri:0, instance:kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_084Test@5bd03f44]" started-at="2023-01-25T12:27:43 IST" name="clickOnimageDescription" finished-at="2023-01-25T12:27:44 IST" duration-ms="1009" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_084Test.clickOnimageDescription(TC_Kalki_AddToCart_084Test.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnimageDescription -->
+      </class> <!-- kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_084Test -->
+      <class name="kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test">
+        <test-method signature="clickOnimageDescription()[pri:0, instance:kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test@17046283]" started-at="2023-01-25T12:27:43 IST" name="clickOnimageDescription" finished-at="2023-01-25T12:27:43 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test.clickOnimageDescription(TC_Kalki_AddToCart_081Test.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnimageDescription -->
+      </class> <!-- kalki_Fashion_AddToCart_Kids.TC_Kalki_AddToCart_081Test -->
+      <class name="kalki_Fashion_SignIn_Module.SignIn_Page_086Test">
+        <test-method signature="signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_086Test@2e4b8173]" started-at="2023-01-25T12:27:41 IST" name="signin" finished-at="2023-01-25T12:27:42 IST" duration-ms="1020" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at kalki_Fashion_SignIn_Module.SignIn_Page_086Test.signin(SignIn_Page_086Test.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+      </class> <!-- kalki_Fashion_SignIn_Module.SignIn_Page_086Test -->
+      <class name="kalki_Fashion_SignIn_Module.SignIn_Page_085Test">
+        <test-method signature="signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_085Test@29626d54]" started-at="2023-01-25T12:27:45 IST" name="signin" finished-at="2023-01-25T12:27:46 IST" duration-ms="1009" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at kalki_Fashion_SignIn_Module.SignIn_Page_085Test.signin(SignIn_Page_085Test.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+      </class> <!-- kalki_Fashion_SignIn_Module.SignIn_Page_085Test -->
+      <class name="kalki_Fashion_SignIn_Module.SignIn_Page_087Test">
+        <test-method signature="signin()[pri:0, instance:kalki_Fashion_SignIn_Module.SignIn_Page_087Test@72a7c7e0]" started-at="2023-01-25T12:27:40 IST" name="signin" finished-at="2023-01-25T12:27:41 IST" duration-ms="1054" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at kalki_Fashion_SignIn_Module.SignIn_Page_087Test.signin(SignIn_Page_087Test.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+      </class> <!-- kalki_Fashion_SignIn_Module.SignIn_Page_087Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
